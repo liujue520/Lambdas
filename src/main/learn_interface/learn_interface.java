@@ -1,4 +1,4 @@
-package main.java_interface;
+package main.learn_interface;
 
 public class learn_interface {
     interface Centered{
@@ -54,4 +54,8 @@ public class learn_interface {
         double getLowerLeftX();
         double getLowerLeftY();
     }
+    /*java.io.Serializable 接口就是一种标记接口
+    实现Serializable 接口的类告诉ObjectOutputStream 类，这个类的实例可以安全地序列化。
+    java.util.RandomAccess 也是标记接口：java.util.List 接口实现了这个接口，表明这个接口能快速随机访问列表中的元素。
+    * */
 }
